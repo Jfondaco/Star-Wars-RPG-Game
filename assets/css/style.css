@@ -1,0 +1,61 @@
+body {
+    background-image: url("../images/possibleBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  
+  .img-thumbnail {
+    height: 100px;
+    width: 100px;
+    margin-right:10px;
+    
+    
+    
+  }
+  
+  .enemy {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .chosen-character .img-thumbnail {
+    height: 150px;
+    width: 150px;
+  }
+  
+  
+  .defender-character .img-thumbnail {
+    height: 150px;
+    width: 150px;
+  }
+  
+  .enemy-pokemon {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  
+  .enemy-pokemon .img-thumbnail {
+    background-color: red;
+    border: 2px solid red;
+  }
+  
+  #pikachu, #squirtle, #bulbasaur, #charmander {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  #characters-available {
+    text-align: center;
+  }
+  
+  #your-pokemon {
+    text-align: center;
+  }
+  
+  #defender-div {
+    text-align: center;
+  }
+  
+  

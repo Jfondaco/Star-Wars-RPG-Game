@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Star Wars RPG Game</title>
+  
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+      <div class="container-fluid">
+
+        <!-- Pokemon -->
+        <div class="row">
+          <div class="col-md-8-offset-4">
+            <h1 class="text-center">My Pokemon RPG</h1>
+          </div>
+        </div>
+
+        <!-- Div with all characters -->
+        <!-- using bootstrap for image classes but dont seem to be affected by offset? -->
+        <div class="row">
+          <div id="pokemon-available" class="col-md-8-offset-4">
+            <!-- Pikachu -->
+            <div id="pikachu" class="character-image available-pokemon">
+              <p class="text-center">Pikachu</p>
+              <img class= "img-thumbnail container-fluid" src="assets/images/pikachu.jpg">
+              <p class="health text-center">130</p>
+            </div>
+            <!-- Squirtle -->
+            <div id="squirtle" class="character-image available-pokemon">
+              <p class="text-center">Squirtle</p>
+              <img class="img-thumbnail container-fluid" src="assets/images/Squirtle.jpg">
+              <p class="health">110</p>
+            </div>
+            <!-- bulbasaur -->
+            <div id="bulbasaur" class="character-image available-pokemon">
+              <p class="text-center">Bulbasaur</p>
+              <img class="img-thumbnail container-fluid" src="assets/images/bulbasaur.jpg">
+              <p class="health">180</p>
+            </div>
+            <!-- Charmander -->
+            <div id="charmander" class="character-image available-pokemon">
+              <p class="text-center">Charmander</p>
+              <img class="img-thumbnail container-fluid" src="assets/images/charmander.jpg">
+              <p class="health">150</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8-offset-4">
+            <h3 class="text-center">Pick your Starter</h3>
+            <div id="your-pokemon"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8-offset-4">
+            <h3 class="text-center">Fight Section</h3>
+            <button id="attack-btn" class="center-block" type="button" name="attack-button">Attack</button>
+            <h5 id="game-message" class="text-center">#game-message</h5>
+            <button class="center-block" id="restart">Restart</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8-offset-4">
+            <h3 class="text-center">Defender</h3>
+            <div id="defender-div"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8-offset-4">
+            <h3 class="text-center">Enemies to beat</h3>
+            <div id="enemies-div" class="text-center"></div>
+          </div>
+        </div>
+
+      </div>
+
+  <script src="jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/assets/javascript/game.js"></script>
+  </body>
+</html>
