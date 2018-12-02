@@ -20,13 +20,13 @@ body {
     width: 100px;
   }
   
-  .chosen-character .img-thumbnail {
+  .your-pokemon .img-thumbnail {
     height: 150px;
     width: 150px;
   }
   
   
-  .defender-character .img-thumbnail {
+  .defending-pokemon .img-thumbnail {
     height: 150px;
     width: 150px;
   }
